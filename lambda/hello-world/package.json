@@ -1,0 +1,20 @@
+{
+    "name": "lambda-hello-world",
+    "version": "1.0.0",
+    "description": "",
+    "main": "handler.js",
+    "scripts": {
+        "build": "tsc",
+        "watch": "tsc -w",
+        "test": "jest"
+    },
+    "devDependencies": {
+        "@types/node": "^13.7.0",
+        "jest": "^24.9.0",
+        "ts-jest": "^24.0.2",
+        "ts-node": "^8.1.0",
+        "typescript": "~3.9.7"
+    },
+    "author": "",
+    "license": "ISC"
+}
